@@ -24,7 +24,7 @@
   Wersja: 1.0-XDR-CREEPER | Kolor: Linux Green
 ```
 
-**Autor:** Daniel Budyn | daniel.budyn@greeneris.com | Greeneris  
+**Autor:** Daniel Budyn | https://www.linkedin.com/in/daniel-b-4295a421a | NEWLIFE  
 **Wersja:** 1.0-XDR-CREEPER  
 **Platforma:** Linux (bash, wymaga root)  
 **Plik:** `XDR-Creeper.sh`
@@ -33,7 +33,7 @@
 
 ## Co to jest
 
-`XDR-Creeper.sh` to główny launcher frameworku XDR Creeper. Zawiera: animację logo (tatuaż + robaczek), 20 wbudowanych technik ataku, interaktywne menu z numerowanym wyborem, DLC loader, CSV timeline, findings.jsonl engine i mission report.
+`XDR-Creeper.sh` to główny launcher frameworku XDR Creeper.20 wbudowanych technik ataku, interaktywne menu z numerowanym wyborem, DLC loader, CSV timeline, findings.jsonl engine i mission report.
 
 ---
 
@@ -50,8 +50,6 @@ sudo ./XDR-Creeper.sh --menu       # Wymuś menu
 ```
 
 ---
-
-**Menu jest pętlą** — po zakończeniu dowolnej akcji wraca do głównego menu. Nie trzeba uruchamiać skryptu od nowa.
 
 **Opcja 3 (DLC)** otwiera submenu z numerowaną listą:
 ```
