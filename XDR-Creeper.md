@@ -33,20 +33,20 @@
 
 ## Co to jest
 
-`newlife-core-linux.sh` to główny launcher frameworku XDR Creeper. Zawiera: animację logo (tatuaż + robaczek), 20 wbudowanych technik ataku, interaktywne menu z numerowanym wyborem, DLC loader, CSV timeline, findings.jsonl engine i mission report.
+`XDR-Creeper.sh` to główny launcher frameworku XDR Creeper. Zawiera: animację logo (tatuaż + robaczek), 20 wbudowanych technik ataku, interaktywne menu z numerowanym wyborem, DLC loader, CSV timeline, findings.jsonl engine i mission report.
 
 ---
 
 ## Uruchomienie
 
 ```bash
-chmod +x newlife-core-linux.sh
-sudo ./newlife-core-linux.sh              # Interaktywne menu
-sudo ./newlife-core-linux.sh --all        # Wszystkie 20 core attacks
-sudo ./newlife-core-linux.sh --dlc 01-iam-abuse  # Konkretne DLC
-sudo ./newlife-core-linux.sh --list-dlc   # Lista DLC
-sudo ./newlife-core-linux.sh --no-animate # Pomiń animację logo
-sudo ./newlife-core-linux.sh --menu       # Wymuś menu
+chmod +x XDR-Creeper.sh
+sudo ./XDR-Creeper.sh            # Interaktywne menu
+sudo ./XDR-Creeper.sh --all        # Wszystkie 20 core attacks
+sudo ./XDR-Creeper.sh --dlc 01-iam-abuse  # Konkretne DLC
+sudo ./XDR-Creeper.sh--list-dlc   # Lista DLC
+sudo ./XDR-Creeper.sh --no-animate # Pomiń animację logo
+sudo ./XDR-Creeper.sh --menu       # Wymuś menu
 ```
 
 ---
@@ -99,7 +99,7 @@ Wystarczy wpisać numer (np. `3`)
 ```
 XDR Creeper/
 ├── linux/
-│   ├── newlife-core-linux.sh        ← TEN PLIK (launcher + 20 ataków)
+│   ├── XDR-Creeper.sh        ← TEN PLIK (launcher + 20 ataków)
 │   └── dlc/
 │       ├── dlc-01-iam-abuse.sh      ← 15 ataków IAM
 │       ├── dlc-02-privesc.sh        ← 15 ataków PrivEsc
@@ -115,7 +115,7 @@ XDR Creeper/
 │       ├── dlc-12-auditor.sh        ← raport bezpieczeństwa
 │       └── dlc-TEMPLATE.sh
 └── docs/
-    ├── CORE-LINUX.md                ← TEN DOKUMENT
+    ├── XDR-Creeper.md                ← TEN DOKUMENT
     ├── DLC-01-IAM-ABUSE.md
     ├── ... (12 dokumentów DLC)
     └── DLC-12-AUDITOR.md
