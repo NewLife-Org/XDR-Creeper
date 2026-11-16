@@ -24,7 +24,7 @@
   Kolor akcentu: Fioletowy (Purple) | MITRE: TA0001 TA0003 TA0004 TA0006
 ```
 
-**Autor:** Daniel Budyn | newlife-org@proton.me | NEWLIFE  
+**Autor:** Daniel Budyn | gh0st@newlife.org.pl | NEWLIFE  
 **Wersja:** 2.0 (z findings.jsonl )  
 **Platforma:** Linux (bash, wymaga root)  
 **Uruchomienie:** `sudo ./newlife-core-linux.sh --dlc 01-iam-abuse`
